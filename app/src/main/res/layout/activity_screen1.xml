@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Screen_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/skip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textAlignment="textEnd"
+            android:textColor="#9F9797"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Your Lab Test"
+        android:textAlignment="textStart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#353232"
+        android:fontFamily="@font/montserrat"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The sport has long had colonial associations, and even after independence was reserved for the elite."
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#353232"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="20dp"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="355dp"
+        android:padding="20dp"
+        android:src="@drawable/screen1" />
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            app:backgroundTint="#3F51B5" />
+        <TextView
+            android:id="@+id/next1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Next"
+            android:fontFamily="@font/montserrat"
+            android:elevation="6dp"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            app:layout_anchor="@id/fab1"
+            app:layout_anchorGravity="center"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</LinearLayout>

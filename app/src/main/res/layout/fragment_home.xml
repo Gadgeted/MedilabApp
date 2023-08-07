@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jane"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/surname"
+        android:fontFamily="@font/montserrat"/>
+<!--    TODO others-->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jane"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/others"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/email"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/phone"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/dob"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/gender"
+        android:fontFamily="@font/montserrat"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration date"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/regDate"
+        android:fontFamily="@font/montserrat"/>
+
+</LinearLayout>
